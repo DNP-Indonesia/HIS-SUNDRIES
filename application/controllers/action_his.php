@@ -7,9 +7,7 @@ class Action_his extends MY_Controller{
 	    parent::__construct();
 	    $this->load->dbforge();
 		$this->load->helper('url');
-
 		$this->load->library('Pdf');
-
 	    $this->load->model('M_his');
 
 	    

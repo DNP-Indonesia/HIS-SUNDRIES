@@ -14,7 +14,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <a href="halaman1.html" style="text-decoration: none;">
+      <a href="#" style="text-decoration: none;">
         <div class="card text-white bg-primary mb-3">
           <div class="card-body">
             <h5 class="card-title">HIS Medical</h5>
@@ -24,7 +24,7 @@
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="halaman2.html" style="text-decoration: none;">
+      <a href="<?= base_url('Sundries/kategoricontroller/kategoripage') ?>" style="text-decoration: none;">
         <div class="card text-white bg-secondary mb-3">
           <div class="card-body">
             <h5 class="card-title">HIS Sundries</h5>
@@ -34,7 +34,7 @@
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="halaman3.html" style="text-decoration: none;">
+      <a href="karyawan_temp" style="text-decoration: none;">
         <div class="card text-white bg-info mb-3">
           <div class="card-body">
             <h5 class="card-title">HIS TK (Training Kaizen)</h5>
